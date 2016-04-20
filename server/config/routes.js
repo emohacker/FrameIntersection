@@ -44,8 +44,8 @@ module.exports.routes = {
     controller:'Login',
     action:'loginCheck'
   },
-  '/cmshow/index':{
-    controller:'Cmshow',
+  '/framecut/index':{
+    controller:'Framecut',
     action:'init'
   },
   /***************************************************************************
