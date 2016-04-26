@@ -121,8 +121,8 @@ module.exports = {
         var dir = IScaler.basePath + dirname;
         var config = {
           dirname:dirname,
-          sWidth:100,
-          sHeight:100
+          sWidth:200,
+          sHeight:200
         };
         if(files[0].filename.indexOf(".zip")!=-1){
           var zip = new AdmZip(files[0].fd);
